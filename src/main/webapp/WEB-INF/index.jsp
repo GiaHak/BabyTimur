@@ -7,14 +7,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
 	<meta charset="ISO-8859-1">
 	<link rel="stylesheet" href="/static/style.css">
 		<link rel="stylesheet"
 	href="/webjars/bootstrap/5.0.1/css/bootstrap.min.css" />
 
 	<!-- YOUR own local CSS -->
-	<link rel="stylesheet" href="/css/style.css"/>
+	<link rel="stylesheet" href="/resources/CSS/style.css"/>
 	<!-- For any Bootstrap that uses JS or jQuery-->
 	<script src="/webjars/jquery/jquery.min.js"></script>
 	<script src="/webjars/bootstrap/5.0.1/js/bootstrap.min.js"></script>
@@ -22,7 +24,7 @@
 	<title>Insert title here</title>
 </head>
 <body  style="background-color: #f5f5f5;">
-<div id="container">
+<div id="container ">
 <nav class="navbar navbar-light" style="background-color: #a8c2db;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Baby baby</a>
@@ -78,28 +80,38 @@
 <div class="card" style="width: 18rem;">
   <img src="/resources/images/baby.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Sleep</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Read More</a>
   </div>
   </div> 
   
   <div class="card" style="width: 18rem;">
   <img src="/resources/images/baby.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Hygiene</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Read More</a>
   </div>
   </div> 
   
   <div class="card" style="width: 18rem;">
   <img src="/resources/images/baby.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Baby Feeding</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Read More</a>
   </div>
+  </div>
+  
+    <div class="card" style="width: 18rem;">
+  <img src="/resources/images/baby.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Safety</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  
   </div>
 
 
