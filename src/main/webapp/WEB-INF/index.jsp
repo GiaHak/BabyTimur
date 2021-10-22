@@ -10,13 +10,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-	<meta charset="ISO-8859-1">
-	<link rel="stylesheet" href="/static/style.css">
-		<link rel="stylesheet"
-	href="/webjars/bootstrap/5.0.1/css/bootstrap.min.css" />
+<meta charset="ISO-8859-1">
+	
+	<!-- for Bootstrap CSS -->
+	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+	
+	
+	<link rel="stylesheet" href="/webjars/bootstrap/5.0.1/css/bootstrap.min.css" />
 
 	<!-- YOUR own local CSS -->
 	<link rel="stylesheet" href="/resources/CSS/style.css"/>
+	
 	<!-- For any Bootstrap that uses JS or jQuery-->
 	<script src="/webjars/jquery/jquery.min.js"></script>
 	<script src="/webjars/bootstrap/5.0.1/js/bootstrap.min.js"></script>
@@ -24,7 +28,9 @@
 	<title>Insert title here</title>
 </head>
 <body  style="background-color: #f5f5f5;">
-<div id="container ">
+
+
+
 <nav class="navbar navbar-light" style="background-color: #a8c2db;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Baby baby</a>
@@ -34,30 +40,24 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Sleep Routine</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Link
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+
         <li class="nav-item">
-          <a class="nav-link disabled">Link</a>
+          <a class="nav-link disabled">Hygiene</a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link disabled">Feeding</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link disabled">Safety</a>
+        </li>
+        
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    
     </div>
   </div>
 </nav>
@@ -78,11 +78,11 @@
 <div class="d-flex justify-content-evenly">
 
 <div class="card" style="width: 18rem;">
-  <img src="/resources/images/baby.jpg" class="card-img-top" alt="...">
+  <img src="/resources/images/babysleep.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Sleep</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Read More</a>
+    <a href="/sleep" class="btn btn-primary">Read More</a>
   </div>
   </div> 
   
@@ -91,7 +91,7 @@
   <div class="card-body">
     <h5 class="card-title">Hygiene</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Read More</a>
+    <a href="/hygiene" class="btn btn-primary">Read More</a>
   </div>
   </div> 
   
@@ -100,7 +100,7 @@
   <div class="card-body">
     <h5 class="card-title">Baby Feeding</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Read More</a>
+    <a href="/babyfeeding" class="btn btn-primary">Read More</a>
   </div>
   </div>
   
@@ -109,7 +109,7 @@
   <div class="card-body">
     <h5 class="card-title">Safety</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Read More</a>
+    <a href="/safety" class="btn btn-primary">Read More</a>
   </div>
   
   </div>
@@ -122,7 +122,6 @@
  
   
   
-</div>
 
 
 
@@ -132,7 +131,8 @@
 
 
 
-</div>
+
+
 </body>
 
 </html>

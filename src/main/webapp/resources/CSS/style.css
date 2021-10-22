@@ -1,2 +1,8 @@
-*
-{font-family: 'Merienda', cursive;}
+*{
+	
+	font-family: 'Merienda', cursive;
+
+}
+#sleep {
+	color: white;
+}
